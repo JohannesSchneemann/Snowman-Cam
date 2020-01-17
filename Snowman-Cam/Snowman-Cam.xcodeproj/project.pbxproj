@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1136E5623D14EB800BAEC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1136E5523D14EB800BAEC6C /* AppDelegate.swift */; };
+		D1136E5823D14EB800BAEC6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1136E5723D14EB800BAEC6C /* SceneDelegate.swift */; };
+		D1136E5A23D14EB800BAEC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1136E5923D14EB800BAEC6C /* ViewController.swift */; };
+		D1136E5D23D14EB800BAEC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1136E5B23D14EB800BAEC6C /* Main.storyboard */; };
+		D1136E5F23D14EBA00BAEC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1136E5E23D14EBA00BAEC6C /* Assets.xcassets */; };
+		D1136E6223D14EBA00BAEC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1136E6023D14EBA00BAEC6C /* LaunchScreen.storyboard */; };
+		D1136E6D23D14EBB00BAEC6C /* Snowman_CamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1136E6C23D14EBB00BAEC6C /* Snowman_CamTests.swift */; };
+		D1136E7823D14EBB00BAEC6C /* Snowman_CamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1136E7723D14EBB00BAEC6C /* Snowman_CamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1136E6923D14EBB00BAEC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1136E4A23D14EB800BAEC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1136E5123D14EB800BAEC6C;
+			remoteInfo = "Snowman-Cam";
+		};
+		D1136E7423D14EBB00BAEC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1136E4A23D14EB800BAEC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1136E5123D14EB800BAEC6C;
+			remoteInfo = "Snowman-Cam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1136E5223D14EB800BAEC6C /* Snowman-Cam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snowman-Cam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1136E5523D14EB800BAEC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D1136E5723D14EB800BAEC6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D1136E5923D14EB800BAEC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1136E5C23D14EB800BAEC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1136E5E23D14EBA00BAEC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1136E6123D14EBA00BAEC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1136E6323D14EBA00BAEC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1136E6823D14EBB00BAEC6C /* Snowman-CamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowman-CamTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1136E6C23D14EBB00BAEC6C /* Snowman_CamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowman_CamTests.swift; sourceTree = "<group>"; };
+		D1136E6E23D14EBB00BAEC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1136E7323D14EBB00BAEC6C /* Snowman-CamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowman-CamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1136E7723D14EBB00BAEC6C /* Snowman_CamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowman_CamUITests.swift; sourceTree = "<group>"; };
+		D1136E7923D14EBB00BAEC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1136E4F23D14EB800BAEC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1136E6523D14EBB00BAEC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1136E7023D14EBB00BAEC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1136E4923D14EB800BAEC6C = {
+			isa = PBXGroup;
+			children = (
+				D1136E5423D14EB800BAEC6C /* Snowman-Cam */,
+				D1136E6B23D14EBB00BAEC6C /* Snowman-CamTests */,
+				D1136E7623D14EBB00BAEC6C /* Snowman-CamUITests */,
+				D1136E5323D14EB800BAEC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1136E5323D14EB800BAEC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1136E5223D14EB800BAEC6C /* Snowman-Cam.app */,
+				D1136E6823D14EBB00BAEC6C /* Snowman-CamTests.xctest */,
+				D1136E7323D14EBB00BAEC6C /* Snowman-CamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1136E5423D14EB800BAEC6C /* Snowman-Cam */ = {
+			isa = PBXGroup;
+			children = (
+				D1136E5523D14EB800BAEC6C /* AppDelegate.swift */,
+				D1136E5723D14EB800BAEC6C /* SceneDelegate.swift */,
+				D1136E5923D14EB800BAEC6C /* ViewController.swift */,
+				D1136E5B23D14EB800BAEC6C /* Main.storyboard */,
+				D1136E5E23D14EBA00BAEC6C /* Assets.xcassets */,
+				D1136E6023D14EBA00BAEC6C /* LaunchScreen.storyboard */,
+				D1136E6323D14EBA00BAEC6C /* Info.plist */,
+			);
+			path = "Snowman-Cam";
+			sourceTree = "<group>";
+		};
+		D1136E6B23D14EBB00BAEC6C /* Snowman-CamTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1136E6C23D14EBB00BAEC6C /* Snowman_CamTests.swift */,
+				D1136E6E23D14EBB00BAEC6C /* Info.plist */,
+			);
+			path = "Snowman-CamTests";
+			sourceTree = "<group>";
+		};
+		D1136E7623D14EBB00BAEC6C /* Snowman-CamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1136E7723D14EBB00BAEC6C /* Snowman_CamUITests.swift */,
+				D1136E7923D14EBB00BAEC6C /* Info.plist */,
+			);
+			path = "Snowman-CamUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1136E5123D14EB800BAEC6C /* Snowman-Cam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1136E7C23D14EBB00BAEC6C /* Build configuration list for PBXNativeTarget "Snowman-Cam" */;
+			buildPhases = (
+				D1136E4E23D14EB800BAEC6C /* Sources */,
+				D1136E4F23D14EB800BAEC6C /* Frameworks */,
+				D1136E5023D14EB800BAEC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snowman-Cam";
+			productName = "Snowman-Cam";
+			productReference = D1136E5223D14EB800BAEC6C /* Snowman-Cam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1136E6723D14EBB00BAEC6C /* Snowman-CamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1136E7F23D14EBB00BAEC6C /* Build configuration list for PBXNativeTarget "Snowman-CamTests" */;
+			buildPhases = (
+				D1136E6423D14EBB00BAEC6C /* Sources */,
+				D1136E6523D14EBB00BAEC6C /* Frameworks */,
+				D1136E6623D14EBB00BAEC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1136E6A23D14EBB00BAEC6C /* PBXTargetDependency */,
+			);
+			name = "Snowman-CamTests";
+			productName = "Snowman-CamTests";
+			productReference = D1136E6823D14EBB00BAEC6C /* Snowman-CamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1136E7223D14EBB00BAEC6C /* Snowman-CamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1136E8223D14EBB00BAEC6C /* Build configuration list for PBXNativeTarget "Snowman-CamUITests" */;
+			buildPhases = (
+				D1136E6F23D14EBB00BAEC6C /* Sources */,
+				D1136E7023D14EBB00BAEC6C /* Frameworks */,
+				D1136E7123D14EBB00BAEC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1136E7523D14EBB00BAEC6C /* PBXTargetDependency */,
+			);
+			name = "Snowman-CamUITests";
+			productName = "Snowman-CamUITests";
+			productReference = D1136E7323D14EBB00BAEC6C /* Snowman-CamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1136E4A23D14EB800BAEC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Johannes Schneemann";
+				TargetAttributes = {
+					D1136E5123D14EB800BAEC6C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D1136E6723D14EBB00BAEC6C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D1136E5123D14EB800BAEC6C;
+					};
+					D1136E7223D14EBB00BAEC6C = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D1136E5123D14EB800BAEC6C;
+					};
+				};
+			};
+			buildConfigurationList = D1136E4D23D14EB800BAEC6C /* Build configuration list for PBXProject "Snowman-Cam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1136E4923D14EB800BAEC6C;
+			productRefGroup = D1136E5323D14EB800BAEC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1136E5123D14EB800BAEC6C /* Snowman-Cam */,
+				D1136E6723D14EBB00BAEC6C /* Snowman-CamTests */,
+				D1136E7223D14EBB00BAEC6C /* Snowman-CamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1136E5023D14EB800BAEC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1136E6223D14EBA00BAEC6C /* LaunchScreen.storyboard in Resources */,
+				D1136E5F23D14EBA00BAEC6C /* Assets.xcassets in Resources */,
+				D1136E5D23D14EB800BAEC6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1136E6623D14EBB00BAEC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1136E7123D14EBB00BAEC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1136E4E23D14EB800BAEC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1136E5A23D14EB800BAEC6C /* ViewController.swift in Sources */,
+				D1136E5623D14EB800BAEC6C /* AppDelegate.swift in Sources */,
+				D1136E5823D14EB800BAEC6C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1136E6423D14EBB00BAEC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1136E6D23D14EBB00BAEC6C /* Snowman_CamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1136E6F23D14EBB00BAEC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1136E7823D14EBB00BAEC6C /* Snowman_CamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1136E6A23D14EBB00BAEC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1136E5123D14EB800BAEC6C /* Snowman-Cam */;
+			targetProxy = D1136E6923D14EBB00BAEC6C /* PBXContainerItemProxy */;
+		};
+		D1136E7523D14EBB00BAEC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1136E5123D14EB800BAEC6C /* Snowman-Cam */;
+			targetProxy = D1136E7423D14EBB00BAEC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1136E5B23D14EB800BAEC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1136E5C23D14EB800BAEC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1136E6023D14EBA00BAEC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1136E6123D14EBA00BAEC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1136E7A23D14EBB00BAEC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D1136E7B23D14EBB00BAEC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1136E7D23D14EBB00BAEC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SCL8T9Z7G;
+				INFOPLIST_FILE = "Snowman-Cam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Johannes-Schneemann.Snowman-Cam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1136E7E23D14EBB00BAEC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SCL8T9Z7G;
+				INFOPLIST_FILE = "Snowman-Cam/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Johannes-Schneemann.Snowman-Cam";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1136E8023D14EBB00BAEC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SCL8T9Z7G;
+				INFOPLIST_FILE = "Snowman-CamTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Johannes-Schneemann.Snowman-CamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowman-Cam.app/Snowman-Cam";
+			};
+			name = Debug;
+		};
+		D1136E8123D14EBB00BAEC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SCL8T9Z7G;
+				INFOPLIST_FILE = "Snowman-CamTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Johannes-Schneemann.Snowman-CamTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowman-Cam.app/Snowman-Cam";
+			};
+			name = Release;
+		};
+		D1136E8323D14EBB00BAEC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SCL8T9Z7G;
+				INFOPLIST_FILE = "Snowman-CamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Johannes-Schneemann.Snowman-CamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snowman-Cam";
+			};
+			name = Debug;
+		};
+		D1136E8423D14EBB00BAEC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SCL8T9Z7G;
+				INFOPLIST_FILE = "Snowman-CamUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Johannes-Schneemann.Snowman-CamUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Snowman-Cam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1136E4D23D14EB800BAEC6C /* Build configuration list for PBXProject "Snowman-Cam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1136E7A23D14EBB00BAEC6C /* Debug */,
+				D1136E7B23D14EBB00BAEC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1136E7C23D14EBB00BAEC6C /* Build configuration list for PBXNativeTarget "Snowman-Cam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1136E7D23D14EBB00BAEC6C /* Debug */,
+				D1136E7E23D14EBB00BAEC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1136E7F23D14EBB00BAEC6C /* Build configuration list for PBXNativeTarget "Snowman-CamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1136E8023D14EBB00BAEC6C /* Debug */,
+				D1136E8123D14EBB00BAEC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1136E8223D14EBB00BAEC6C /* Build configuration list for PBXNativeTarget "Snowman-CamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1136E8323D14EBB00BAEC6C /* Debug */,
+				D1136E8423D14EBB00BAEC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1136E4A23D14EB800BAEC6C /* Project object */;
+}
