@@ -15,6 +15,9 @@
 		D1136E6223D14EBA00BAEC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1136E6023D14EBA00BAEC6C /* LaunchScreen.storyboard */; };
 		D1136E6D23D14EBB00BAEC6C /* Snowman_CamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1136E6C23D14EBB00BAEC6C /* Snowman_CamTests.swift */; };
 		D1136E7823D14EBB00BAEC6C /* Snowman_CamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1136E7723D14EBB00BAEC6C /* Snowman_CamUITests.swift */; };
+		D1136E8623D1539000BAEC6C /* ImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1136E8523D1539000BAEC6C /* ImageHandler.swift */; };
+		D1136E8D23D154A200BAEC6C /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1136E8B23D154A100BAEC6C /* Resnet50.mlmodel */; };
+		D1136E8E23D154A200BAEC6C /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D1136E8C23D154A200BAEC6C /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D1136E7323D14EBB00BAEC6C /* Snowman-CamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowman-CamUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1136E7723D14EBB00BAEC6C /* Snowman_CamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowman_CamUITests.swift; sourceTree = "<group>"; };
 		D1136E7923D14EBB00BAEC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1136E8523D1539000BAEC6C /* ImageHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHandler.swift; sourceTree = "<group>"; };
+		D1136E8B23D154A100BAEC6C /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = "../../../../Xcode projects/Resnet50.mlmodel"; sourceTree = "<group>"; };
+		D1136E8C23D154A200BAEC6C /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = "../../../../Xcode projects/GoogLeNetPlaces.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,12 @@
 				D1136E5723D14EB800BAEC6C /* SceneDelegate.swift */,
 				D1136E5923D14EB800BAEC6C /* ViewController.swift */,
 				D1136E5B23D14EB800BAEC6C /* Main.storyboard */,
+				D1136E8C23D154A200BAEC6C /* GoogLeNetPlaces.mlmodel */,
+				D1136E8B23D154A100BAEC6C /* Resnet50.mlmodel */,
 				D1136E5E23D14EBA00BAEC6C /* Assets.xcassets */,
 				D1136E6023D14EBA00BAEC6C /* LaunchScreen.storyboard */,
 				D1136E6323D14EBA00BAEC6C /* Info.plist */,
+				D1136E8523D1539000BAEC6C /* ImageHandler.swift */,
 			);
 			path = "Snowman-Cam";
 			sourceTree = "<group>";
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1136E8D23D154A200BAEC6C /* Resnet50.mlmodel in Sources */,
 				D1136E5A23D14EB800BAEC6C /* ViewController.swift in Sources */,
 				D1136E5623D14EB800BAEC6C /* AppDelegate.swift in Sources */,
+				D1136E8623D1539000BAEC6C /* ImageHandler.swift in Sources */,
 				D1136E5823D14EB800BAEC6C /* SceneDelegate.swift in Sources */,
+				D1136E8E23D154A200BAEC6C /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
